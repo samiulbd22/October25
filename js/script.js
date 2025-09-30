@@ -78,7 +78,7 @@ const members = {
     serviceBill     :20,
     othersBill      :185,
     runningMonth    :"October-25",
-    previousMonth   :"September-25", // new addDecember link https://grabify.link/38DB4J
+    previousMonth   :"September-25", // new addDecember link https://grabify.link/Q6NZ48
     upComingMonth   :"November 1,2025",
     runningMealRate :0,
 
@@ -186,7 +186,7 @@ const members = {
     
     "01909752631":{
         name:"Sabbir Hosen",
-         join:"new",//01/09/25
+         //join:"new",//01/09/25
         // pre-previous month list
         post_payable        :4600,
         previous_paid       :6720,
@@ -847,6 +847,7 @@ function sumTotal(a){
     }
     return sum;
 }
+
 
 
 
