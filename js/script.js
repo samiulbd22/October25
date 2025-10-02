@@ -211,7 +211,7 @@ const members = {
         post_payable        :4245,
         previous_paid       :6200,
         previous_dining_cost:1798,
-        payment             :undefined,
+        payment             :{"01/10/24-Cash":5000},
         // running month
         stay_cost       :3500,
         garage_cost     :0,
@@ -231,9 +231,9 @@ const members = {
         post_payable        :4510,
         previous_paid       :5900,
         previous_dining_cost:1682,
-        payment             :undefined,
+        payment             :{"02/10/24-Cash":5000},
         // running month {"01/07/24-Cash":500}
-        stay_cost       :4200,
+        stay_cost       :3500,
         garage_cost     :0,
         running_payable :0,
         running_paid    :0,
@@ -847,6 +847,7 @@ function sumTotal(a){
     }
     return sum;
 }
+
 
 
 
