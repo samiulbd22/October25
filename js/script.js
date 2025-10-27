@@ -90,12 +90,12 @@ const members = {
         post_payable        :3497,
         previous_paid       :5530,
         previous_dining_cost:1508,
-        payment             :{"10/10/25-DBBL":2000},
+        payment             :{"10/10/25-DBBL":2000,"27/10/25-DBBL":1000},
         // running month
         stay_cost       :2000,
         garage_cost     :0,
         running_payable :2320,
-        running_paid    :2000,
+        running_paid    :3000,
         running_meal    :25,
         // method 
         preMonth,
@@ -116,7 +116,7 @@ const members = {
         garage_cost     :0,
         running_payable :2319,
         running_paid    :4500,
-        running_meal    :35,
+        running_meal    :36,
         // method calling
         preMonth,
         runningDiningCost,
@@ -136,7 +136,7 @@ const members = {
         garage_cost     :0,
         running_payable :4985,
         running_paid    :7000,
-        running_meal    :49,
+        running_meal    :51,
         // method calling
         preMonth,
         runningDiningCost,
@@ -156,7 +156,7 @@ const members = {
         garage_cost     :0,
         running_payable :4006,
         running_paid    :5500,
-        running_meal    :47,
+        running_meal    :48,
         // method calling
         preMonth,
         runningDiningCost,
@@ -176,7 +176,7 @@ const members = {
         garage_cost     :0,
         running_payable :4758,
         running_paid    :7500,
-        running_meal    :47,
+        running_meal    :49,
         // method calling
         preMonth,
         runningDiningCost,
@@ -847,6 +847,7 @@ function sumTotal(a){
     }
     return sum;
 }
+
 
 
 
